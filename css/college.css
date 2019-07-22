@@ -1,0 +1,108 @@
+.college-head{
+	font-size: 44px;
+    color: #fff;
+}
+.theme-color .wrapper {
+    margin-top: 110px !important;
+}
+#college-slider.owl-carousel .owl-item img{
+    height: 100%;
+    object-fit: cover;
+}
+.theme-color .poster{
+	padding: 0px 0px !important;
+}
+#college-slider.owl-carousel{
+	padding: 0px !important;
+}
+#college-slider .owl-prev{
+	position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#college-slider .owl-next{
+	position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.groom-bride.college-founders{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.groom-bride.college-founders h3{
+	margin-top: 20px;
+}
+.college-founders .secretary{
+	margin-top: 60px;
+}
+#required-time{
+	display: none;
+}
+button.accordion {
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 26px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: transparent;
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+div.panel {
+    padding: 0 0px;
+    background-color: transparent;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-bottom: 0px;
+}
+
+.intro-text-custom{
+	text-align: left;
+	margin: 5px 15px !important;
+    font-size: 20px;
+}
+.diveder-mrg-btm{
+	margin-bottom: 25px !important;
+}
+.padding-courses{
+	padding: 15px;
+}
+.margin-btm-20{
+	margin-bottom: 20px;
+}
+.about-us .college-founders .image-block{
+    border-radius: 50%;
+    max-height: 350px;
+    max-width: 350px;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    width: 310px;
+    height: 310px;
+}
+.about-us .college-founders .image-block img{
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.image-container{
+    height: 500px;
+    overflow: hidden;
+}
+.panel-block{
+    max-height: initial !important;
+}
